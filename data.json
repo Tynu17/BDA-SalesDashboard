@@ -1,0 +1,31 @@
+[
+  {"bulan":"Jan","produk":"Helm Full Face","jumlah":40},
+  {"bulan":"Jan","produk":"Helm Half Face","jumlah":30},
+  {"bulan":"Jan","produk":"Helm Modular","jumlah":20},
+  {"bulan":"Jan","produk":"Helm Retro","jumlah":15},
+  {"bulan":"Jan","produk":"Helm Kids","jumlah":10},
+
+  {"bulan":"Feb","produk":"Helm Full Face","jumlah":45},
+  {"bulan":"Feb","produk":"Helm Half Face","jumlah":32},
+  {"bulan":"Feb","produk":"Helm Modular","jumlah":22},
+  {"bulan":"Feb","produk":"Helm Retro","jumlah":18},
+  {"bulan":"Feb","produk":"Helm Kids","jumlah":12},
+
+  {"bulan":"Mar","produk":"Helm Full Face","jumlah":50},
+  {"bulan":"Mar","produk":"Helm Half Face","jumlah":35},
+  {"bulan":"Mar","produk":"Helm Modular","jumlah":25},
+  {"bulan":"Mar","produk":"Helm Retro","jumlah":20},
+  {"bulan":"Mar","produk":"Helm Kids","jumlah":15},
+
+  {"bulan":"Apr","produk":"Helm Full Face","jumlah":55},
+  {"bulan":"Apr","produk":"Helm Half Face","jumlah":38},
+  {"bulan":"Apr","produk":"Helm Modular","jumlah":28},
+  {"bulan":"Apr","produk":"Helm Retro","jumlah":22},
+  {"bulan":"Apr","produk":"Helm Kids","jumlah":16},
+
+  {"bulan":"May","produk":"Helm Full Face","jumlah":60},
+  {"bulan":"May","produk":"Helm Half Face","jumlah":40},
+  {"bulan":"May","produk":"Helm Modular","jumlah":30},
+  {"bulan":"May","produk":"Helm Retro","jumlah":24},
+  {"bulan":"May","produk":"Helm Kids","jumlah":18}
+]
