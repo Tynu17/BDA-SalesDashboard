@@ -1,31 +1,10 @@
-[
-  {"bulan":"Jan","produk":"Helm Full Face","jumlah":40},
-  {"bulan":"Jan","produk":"Helm Half Face","jumlah":30},
-  {"bulan":"Jan","produk":"Helm Modular","jumlah":20},
-  {"bulan":"Jan","produk":"Helm Retro","jumlah":15},
-  {"bulan":"Jan","produk":"Helm Kids","jumlah":10},
-
-  {"bulan":"Feb","produk":"Helm Full Face","jumlah":45},
-  {"bulan":"Feb","produk":"Helm Half Face","jumlah":32},
-  {"bulan":"Feb","produk":"Helm Modular","jumlah":22},
-  {"bulan":"Feb","produk":"Helm Retro","jumlah":18},
-  {"bulan":"Feb","produk":"Helm Kids","jumlah":12},
-
-  {"bulan":"Mar","produk":"Helm Full Face","jumlah":50},
-  {"bulan":"Mar","produk":"Helm Half Face","jumlah":35},
-  {"bulan":"Mar","produk":"Helm Modular","jumlah":25},
-  {"bulan":"Mar","produk":"Helm Retro","jumlah":20},
-  {"bulan":"Mar","produk":"Helm Kids","jumlah":15},
-
-  {"bulan":"Apr","produk":"Helm Full Face","jumlah":55},
-  {"bulan":"Apr","produk":"Helm Half Face","jumlah":38},
-  {"bulan":"Apr","produk":"Helm Modular","jumlah":28},
-  {"bulan":"Apr","produk":"Helm Retro","jumlah":22},
-  {"bulan":"Apr","produk":"Helm Kids","jumlah":16},
-
-  {"bulan":"May","produk":"Helm Full Face","jumlah":60},
-  {"bulan":"May","produk":"Helm Half Face","jumlah":40},
-  {"bulan":"May","produk":"Helm Modular","jumlah":30},
-  {"bulan":"May","produk":"Helm Retro","jumlah":24},
-  {"bulan":"May","produk":"Helm Kids","jumlah":18}
-]
+{
+  "months": ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agt","Sep","Okt","Nov","Des"],
+  "products": [
+    { "name": "Helm Full Face KYT NF-R", "type": "fullface", "year": 2025, "monthly": [42,38,50,46,55,48,60,58,54,62,68,70], "price": 850000 },
+    { "name": "Helm Half Face KYT Kyoto", "type": "halfface", "year": 2025, "monthly": [30,28,32,34,35,33,38,36,34,39,41,42], "price": 450000 },
+    { "name": "Helm Retro Bogo Classic", "type": "retro", "year": 2025, "monthly": [18,20,22,21,23,22,24,26,25,27,28,29], "price": 520000 },
+    { "name": "Helm Modular Nolan N100", "type": "modular", "year": 2025, "monthly": [15,16,18,19,18,20,22,21,23,24,25,26], "price": 1200000 },
+    { "name": "Helm Offroad JP Pro Trail", "type": "offroad", "year": 2025, "monthly": [12,13,15,14,16,17,18,17,19,20,21,22], "price": 980000 }
+  ]
+}
