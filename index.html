@@ -2,76 +2,70 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard Penjualan</title>
-
-  <!-- Chart.js CDN -->
+  <title>Executive Dashboard Penjualan Helm Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      margin: 0;
-      padding: 30px;
-    }
-
-    h1 {
-      margin-bottom: 5px;
-    }
-
-    .subtitle {
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 20px;
-      color: white;
-      font-weight: bold;
-      background: #4CAF50;
-      margin-top: 10px;
-    }
-  </style>
 </head>
 <body>
 
-  <h1>Dashboard Penjualan</h1>
-  <div class="subtitle">Ringkasan performa penjualan untuk manajemen</div>
+<header class="header">
+  <h1>Executive Dashboard Penjualan Helm Online</h1>
+  <p>Analisis Penjualan Berbasis Waktu & Jenis Produk untuk Keputusan Manajerial</p>
+</header>
 
-  <div class="grid">
-    <div class="card">
-      <h2>Top 5 Produk Terlaris</h2>
-      <canvas id="barChart"></canvas>
-    </div>
+<section class="filter-bar">
+  <select id="filterMonth">
+    <option value="all">All Month</option>
+  </select>
 
-    <div class="card">
-      <h2>Tren Produk Terlaris</h2>
-      <canvas id="lineChart"></canvas>
-    </div>
+  <select id="filterYear">
+    <option value="all">All Year</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+    <option value="2026">2026</option>
+  </select>
 
-    <div class="card">
-      <h2>Klasifikasi Produk Terlaris</h2>
-      <p>Produk: <strong id="produkNama"></strong></p>
-      <div class="badge">High</div>
-    </div>
+  <select id="filterType">
+    <option value="all">All Helmet Type</option>
+  </select>
+</section>
+
+<section class="kpi-section">
+  <div class="kpi-card">
+    <span>Total Unit Terjual</span>
+    <h2 id="kpiUnit">0</h2>
   </div>
+  <div class="kpi-card">
+    <span>Total Penjualan</span>
+    <h2 id="kpiRevenue">Rp 0</h2>
+  </div>
+  <div class="kpi-card">
+    <span>Produk Terlaris</span>
+    <h2 id="kpiTop">-</h2>
+  </div>
+  <div class="kpi-card">
+    <span>Rata-rata / Bulan</span>
+    <h2 id="kpiAvg">0</h2>
+  </div>
+</section>
 
-  <!-- Script -->
-  <script src="script.js"></script>
+<section class="chart-box">
+  <h3>Tren Pertumbuhan Penjualan</h3>
+  <canvas id="trendChart"></canvas>
+</section>
+
+<section class="chart-box">
+  <h3>Top 5 Helm Terlaris</h3>
+  <canvas id="topChart"></canvas>
+</section>
+
+<section class="insight-box">
+  <h3>Rekomendasi Manajerial</h3>
+  <p id="insightText"></p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
